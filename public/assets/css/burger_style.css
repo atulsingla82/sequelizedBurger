@@ -10,7 +10,8 @@
 .lead {
     color: orangered;
     text-align: center;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
 
 }
 
@@ -26,7 +27,7 @@ body{
 
 img{
     width: 250px;
-    font-family: 'Luckiest Guy', cursive;
+
     -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
     transform: rotate(-9deg);
 }
@@ -48,9 +49,10 @@ h2{
 .enter{
     text-align: center;
     color: black;
-    font-family: 'Glegoo', serif;
-    font-size: 20px;
+
+    font-size: 30px;
     font-weight: 500;
+    font-family: 'Courgette', cursive;
 }
 
 
