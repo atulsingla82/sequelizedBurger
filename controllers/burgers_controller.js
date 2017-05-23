@@ -25,6 +25,7 @@ router.post("/", function (req, res) {
     db.Burgers.create({
         burger_name: req.body.burger_name,
         devoured: req.body.devoured
+
     }).then(function (data) {
         res.redirect("/");
     });
@@ -36,6 +37,7 @@ router.put("/:id", function (req, res) {
         }, {
             where: {
                 id: req.params.id
+
             }
         }
     ).then(function (data) {
