@@ -16,6 +16,8 @@
   "production": {
     "username": "fo44ldasxhx55dju",
     "password": "yqljr0i06j742w06",
+    "database": "Burgers2",
+    "host": "s54ham9zz83czkff.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "use_env_variable":"JawsDB_URL",
     "dialect": "mysql"
   }
