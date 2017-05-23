@@ -15,7 +15,8 @@
 }
 
 body{
-   background-color: dodgerblue;
+   /*background-color: dodgerblue;*/
+    background-image: url("../img/retro.jpg");
     background-size: 100%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
@@ -25,6 +26,9 @@ body{
 
 img{
     width: 250px;
+    font-family: 'Luckiest Guy', cursive;
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
 }
 
 
@@ -36,13 +40,19 @@ img{
 
 h2{
 
-    font-family: 'Luckiest Guy', cursive;
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
-}
+     font-family: 'Luckiest Guy', cursive;
+     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+     transform: rotate(-7deg);
+ }
 
 .enter{
     text-align: center;
-    color: #333333;
+    color: black;
     font-family: 'Glegoo', serif;
+    font-size: 20px;
+    font-weight: 500;
 }
+
+
+
+
